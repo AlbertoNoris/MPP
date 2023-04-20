@@ -1,7 +1,7 @@
 
 <?php
 session_start();
-$dbconn = pg_connect("host=localhost port=5432 dbname=Intersection user=postgres password=BIAR")  or header("Location: ../app/indexE.php?er=100");
+$dbconn = pg_connect("host=containers-us-west-28.railway.app port=5622 dbname=railway user=postgres password=4jydJNhTKikgVEnDhUlv")  or header("Location: ../app/indexE.php?er=100");
 ?>
 <html>
     <head></head>
